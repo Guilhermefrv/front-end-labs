@@ -4,7 +4,13 @@
     --color-base-figure-border: #CCC;
     --body-font: "Roboto", sans-serif;
     --h1-font: "Inter", sans-serif;
+    --h2-font: "Big Shoulders", sans-serif;
+    --figcaption-font: "Quicksand", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--color-base);
     font-family: var(--body-font);
@@ -22,7 +28,7 @@ h1{
 h2 {
     border-bottom: 2px groove var(--color-base);
     margin-top: 30px;
-    font-family: "Big Shoulders", sans-serif;
+    font-family: var(--h2-font)
     font-weight: 300;
 }
 figure{
@@ -34,7 +40,7 @@ figure{
 }
 figcaption{
     font-style: italic;
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--figcaption-font)
     font-weight: 700;
 }
 p{
