@@ -59,3 +59,10 @@ input[type=tel] {
     text-align: center;
     width: 280px;
 }
+
+.Icon {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 10px;
+} 
+
